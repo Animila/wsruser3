@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn_screen"
+    tools:context=".SignInActivity"
     android:background="@color/main_background">
 
     <LinearLayout
@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/input_text"
             android:hint="@string/signIn_email"
+            android:inputType="textEmailAddress"
             android:paddingHorizontal="16dp"
             android:paddingVertical="13dp"
             android:textColorHint="@color/hiden_text" />
@@ -64,6 +65,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/input_text"
             android:hint="@string/signIn_password"
+            android:inputType="textPassword"
             android:paddingHorizontal="16dp"
             android:paddingVertical="13dp"
             android:textColorHint="@color/hiden_text" />
@@ -79,6 +81,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+        <!--            android:backgroundTint="@color/free_background"-->
+
         <Button
             android:id="@+id/signIn_login"
             android:layout_width="match_parent"
@@ -88,13 +92,13 @@
             android:text="@string/signIn_login"
             android:textColor="@color/white"
             android:textStyle="bold" />
-        <!--            android:backgroundTint="@color/free_background"-->
 
-        <Button
+        <TextView
             android:id="@+id/signIn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
+            android:gravity="center_horizontal|center_vertical"
             android:paddingVertical="13dp"
             android:text="@string/signIn_register"
             android:textColor="@color/main_color"

@@ -2,18 +2,14 @@ package com.example.movieappws;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class SignIn_screen extends AppCompatActivity {
+public class SignInActivity extends AppCompatActivity {
 
     private Button login;
     private TextView register;
@@ -41,7 +37,7 @@ public class SignIn_screen extends AppCompatActivity {
 
     private void setSignUp() {
         register.setOnClickListener(viewReg -> {
-            Intent signUp = new Intent(this, SignUp_screen.class);
+            Intent signUp = new Intent(this, SignUpActivity.class);
             startActivity(signUp);
             finish();
         });
@@ -62,7 +58,9 @@ public class SignIn_screen extends AppCompatActivity {
         String emailData = email.getText().toString();
         String passwordData = password.getText().toString();
 
-
+        Intent main = new Intent(this, MainActivity.class);
+        startActivity(main);
+        finish();
     }
 
 }
