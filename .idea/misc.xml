@@ -6,8 +6,9 @@
         <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/drawable/button.xml" value="0.1925" />
         <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/drawable/input_text.xml" value="0.1915" />
         <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/activity_main.xml" value="0.184375" />
-        <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.41042345276872966" />
-        <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/launch_screen.xml" value="0.25" />
+        <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.5" />
+        <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.22" />
+        <entry key="..\:/files/Projects/WSR/MovieAppWS/app/src/main/res/layout/launch_screen.xml" value="0.18" />
       </map>
     </option>
   </component>

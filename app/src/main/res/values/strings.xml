@@ -2,6 +2,14 @@
     <string name="app_name">MovieAppWS</string>
     <string name="signIn_email">E-mail</string>
     <string name="signIn_password">Пароль</string>
-    <string name="signIn_login">Пароль</string>
+    <string name="signIn_login">Войти</string>
     <string name="signIn_register">Регистрация</string>
+    <string name="signUp_first_name">Имя</string>
+    <string name="signUp_last_name">Фамилия</string>
+    <string name="signUp_email">E-mail</string>
+    <string name="signUp_password_confirm">Повторите пароль</string>
+    <string name="signUp_password">Пароль</string>
+    <string name="signUp_register">Зарегестрироваться</string>
+    <string name="signUp_login">У меня уже есть аккаунт</string>
+
 </resources>
