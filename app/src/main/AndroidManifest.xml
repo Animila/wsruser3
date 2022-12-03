@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieAppWS"
         tools:targetApi="31">
-
+        <activity
+            android:name=".SignIn_screen"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
